@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding: 1em;
+    box-sizing: border-box;
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+
+    
+}
+
+nav a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right:auto;
+
+}
