@@ -1,5 +1,5 @@
 
-body {
+body, * {
     
     margin: 0;
     padding: 0;
@@ -91,4 +91,23 @@ nav a {
 }
 caption {
     text-align: center;
+}
+.testimonial {
+    padding: 40px 200px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;   
+    font-weight: 300;
+
+}
+#thor {
+    font-size: 30px;
+    font-weight: 900;
+    align-self: flex-end;
+    
 }
